@@ -8,7 +8,7 @@
 }
 
 .benefit {
-    height: 500px;
+    height: 450px;
     background-color: #ffffff;
 }
 
@@ -29,7 +29,7 @@ button {
 
 .button-18 {
     align-items: center;
-    background-color: #39444e;
+    background-color: #000000;
     border: 0;
     border-radius: 100px;
     width: 200px;
@@ -87,32 +87,6 @@ button {
     word-spacing: 0px;
 }
 
-.block-2 {
-    display: inline-block;
-    width: 330px;
-    height: 420px;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border-radius: 5px;
-    border: 4px solid;
-    border-color: rgb(255, 255, 255);
-    vertical-align: top;
-    word-spacing: 0px;
-}
-
-.block-3 {
-    display: inline-block;
-    width: 330px;
-    height: 420px;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border-radius: 5px;
-    border: 4px solid;
-    border-color: rgb(255, 255, 255);
-    vertical-align: top;
-    word-spacing: 0px;
-}
-
 .block-title {
     color: black;
     /* background-color: #d1d1d1; */
@@ -146,22 +120,37 @@ button {
 .container  {
     text-align: center;
     word-spacing: 50px;
-    padding-top: 29px;
+    padding-top: 37px;
     /* margin: 0;
     border: 0;
     overflow: hidden; */
+}
+
+.contain {
+    text-align: center;
+    word-spacing: 50px;
+    padding-top: 30px;
+    /* margin: 0;
+    border: 0;
+    overflow: hidden; */
+}
+
+.contain-block {
+    display: inline-block;
+    width: 330px;
+    height: 250px;
+    color: black;
+    border-radius: 5px;
+    border: 4px solid;
+    border-color: rgb(255, 255, 255);
+    vertical-align: top;
+    word-spacing: 0px;
 }
 
 .conditions {
     padding-top: 30px;
     padding-right: 459px;
     font-weight: 500;
-}
-
-#download {
-    padding-top: 30px;
-    padding-left: 120px;
-    width: 110px;
 }
 
 #download-text {
@@ -176,24 +165,19 @@ footer {
 
 .footer-title {
     padding-left: 80px;
-    padding-top: 50px;
+    padding-top: 70px;
     font-size: 27px;
 }
 
-#line {
-    background-color: black;
-    border-color: rgb(70, 70, 70);
-    width: 298px;
-    margin: auto;
-} 
-
-.icons-1 {
-    justify-content: space-between;
+#icon {
+    padding-top: 30px;
+    width: 130px;
 }
 
-.icon-text-1 {
-    color: #09223b;
-    background-color: #09223b;
+#icon-text {
+    color: #000000;
+    font-size: 20px;
+    padding-top: 15px;
 }
 
 .individual {
@@ -202,9 +186,12 @@ footer {
 
 }
 
-/* .icons {
-    width: 20px;
-} */
+#line {
+    background-color: black;
+    border-color: rgb(70, 70, 70);
+    width: 298px;
+    margin: auto;
+} 
 
 #listening {
     padding-top: 80px;
@@ -231,7 +218,7 @@ footer {
 }
 
 .month-tag {
-    background-color: rgb(58, 121, 121);
+    background-color: rgb(37, 28, 124);
     /* text-align: left; */
     /* padding-left: 20px; */
     /* height: 26px; */
@@ -243,11 +230,38 @@ footer {
 }
 
 .plan {
-    background-color: #39444e;
+    background-color: #bebebe;
     height: 650px;
 }
 
+.plan-benefits {
+    color: #000000;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.plan-benefits-text {
+    color: #000000;
+    font-weight: 300;
+    /* padding: 30px; */
+}
+
+.plan-terms {
+    color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.plan-terms-text {
+    color: #000000;
+}
+
 .plan-title {
+    color: #000000;
     text-align: center;
     padding-top: 40px;
     font-size: 43px;
@@ -268,6 +282,7 @@ footer {
     background-color: rgb(58, 121, 121);
     height: 550px;
     display: block;
+    background-image: linear-gradient(to right, rgb(37, 28, 124) , rgb(146, 146, 10));
 }
 
 .premium-button {
@@ -318,6 +333,14 @@ p {
 .links-2 {
     padding-left: 30px;
     word-spacing: 5px;
+}
+
+.subscribe-button {
+    padding-top: 55px;
+}
+
+.subscribe-button-2 {
+    padding-top: 25px;
 }
 
 .title {
