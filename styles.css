@@ -146,6 +146,20 @@ button {
     color: black;
 }
 
+.fa {
+    color: rgb(0, 0, 0);
+    background-color: rgb(146, 146, 10);
+    border-radius: 100%;
+    padding: 20px;
+    margin: 5px;
+    /* float: right; */
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 footer {
     background-color: black;
     height: 450px;
@@ -242,7 +256,7 @@ p {
 }
 
 .plan {
-    background-color: #bebebe;
+    background-color: #d8d8d8;
     height: 650px;
 }
 
@@ -290,7 +304,6 @@ p {
 }
 
 .premium {
-    background-color: rgb(58, 121, 121);
     background-image: linear-gradient(to right, rgb(37, 28, 124) , rgb(146, 146, 10));
     display: block;
     height: 550px;
@@ -335,7 +348,7 @@ p {
 
 
 .rectangle {
-    padding-right: 260px;
+    padding-right: 30px;
     padding-top: 80px;
     text-align: center;
     word-spacing: 10px;
@@ -377,6 +390,17 @@ p {
     width: 35px;
 }
 
+.social-media {
+    padding-right: 0px;
+    /* text-align: right; */
+    float: right;
+}
+
+.social-media li {
+    clear: both!important;
+    list-style: none;
+}
+
 .soundwave-2 {
     float: left;
     width: 35px;
@@ -388,6 +412,15 @@ p {
 
 .subscribe-button-2 {
     padding-top: 25px;
+}
+
+.terms {
+    text-decoration: underline;
+}
+
+.terms-2 {
+    color: #000000;
+    text-decoration: underline;
 }
 
 .title {
