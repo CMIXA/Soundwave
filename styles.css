@@ -275,7 +275,7 @@ p {
     text-align: left;
 }
 
-.plan-benefits-text {
+.plan-benefits h4 {
     color: #000000;
     font-weight: 300;
 }
@@ -378,16 +378,12 @@ p {
 
 .rect-block h3 {
     font-size: 14px;
+    color: #798a94;
+    font-weight: bolder;
 }
 
 .rect-block h4 {
     font-weight: 200;
-}
-
-.rect-block-title {
-    color: #798a94;
-    font-size: smaller;
-    font-weight: bolder;
 }
 
 .rect-block-1 {
