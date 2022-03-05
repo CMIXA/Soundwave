@@ -9,7 +9,8 @@
 
 .benefit {
     background-color: #ffffff;
-    height: 450px;
+    height: auto;
+    width: 100%;
 }
 
 .benefit-title {
@@ -119,6 +120,7 @@ button {
 
 .container  {
     padding-top: 37px;
+    padding-bottom: 70px;
     text-align: center;
     word-spacing: 50px;
 }
@@ -140,14 +142,15 @@ button {
 
 .download {
     background-color: rgb(37, 28, 124);
-    display: block;
-    height: 550px;
+    /* display: flexbox; */
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+    /* padding-top: 00px; */
 }
 
 .download-box {
-    height: 100%;
-    width: 40%;
-    align-items: center;
+    position: relative;
 }
 
 #download-text {
@@ -264,7 +267,7 @@ p {
 
 .plan {
     background-color: #d8d8d8;
-    height: 650px;
+    height: auto;
 }
 
 .plan-benefits {
@@ -313,7 +316,7 @@ p {
 .premium {
     background-image: linear-gradient(to right, rgb(37, 28, 124) , rgb(146, 146, 10));
     display: block;
-    height: 550px;
+    height: 5auto;
 }
 
 .premium-button {
@@ -329,6 +332,7 @@ p {
 .premium-text {
     font-size: 20px;
     font-weight: 500;
+    padding-bottom: 15%;
     padding-left: 110px;
     padding-top: 120px;
 }
