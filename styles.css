@@ -151,9 +151,9 @@ button {
     /* padding-top: 00px; */
 }
 
-.download-box {
+/* .download-box {
     position: relative;
-}
+} */
 
 #download-text {
     background-color: #ffffff;
@@ -222,6 +222,10 @@ footer {
 
 .links-1 {
     word-spacing: 20px;
+}
+
+.links-1 a {
+    font-weight: 600;
 }
 
 .links-2 {
@@ -366,7 +370,7 @@ p {
 .navbar-links ul {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding-right: 10px;
 }
 
 .navbar-links li {
@@ -462,7 +466,7 @@ p {
     /* margin-right: 180px; */
     /* padding-right: 60px; */
     padding-top: 80px;
-    padding-left: 15%;
+    padding-left: 10%;
     /* text-align: center; */
     /* word-spacing: 30px; */
 }
@@ -500,13 +504,6 @@ p {
     width: 250px;
 }
 
-.soundwave {
-    float: left;
-    padding-top: 6px;
-    padding-left: 110px;
-    width: 35px;
-}
-
 .social-media {
     padding-right: 80px;
     padding-top: 100px;
@@ -518,6 +515,13 @@ p {
     font-size: 20px;
     position: relative;
     list-style: none;
+}
+
+.soundwave {
+    float: left;
+    padding-top: 6px;
+    padding-left: 70px;
+    width: 35px;
 }
 
 .soundwave-2 {
@@ -551,6 +555,7 @@ p {
 }
 
 .title-s {
+    /* float: left; */
     position: relative;
 }
 
