@@ -358,10 +358,6 @@ p {
     color: white;
 }
 
-.brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
-}
 
 .navbar-links {
     height: 100%;
@@ -381,12 +377,27 @@ p {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 23px;
+    padding-top: 26px;
+    padding-left: 2px;
+    padding-right: 20px;
 }
 
 /* .navbar-links li:hover {
     background-color: #555;
 } */
+
+.login {
+    word-spacing: 0px;
+}
+
+.seperator {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 26px;
+    padding-left: 8px;
+    padding-right: 20px;
+}
 
 .toggle-button {
     position: absolute;
@@ -559,6 +570,8 @@ p {
 
     .toggle-button {
         display: flex;
+        padding-top: 10px;
+        padding-right: 10px;
     }
 
     .navbar-links {
@@ -581,5 +594,9 @@ p {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .title-s {
+        padding-top: 10px;
     }
 }
