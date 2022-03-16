@@ -146,6 +146,21 @@ button {
     word-spacing: 0px;
 }
 
+.device {
+    height: 320px;
+}
+
+.device-text {
+    text-align: center;
+    display: block;
+}
+
+.device-text h1 {
+    color: #000000;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
 .download {
     background-color: rgb(49, 37, 158);
     display: block;
