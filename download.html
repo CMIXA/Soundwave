@@ -9,48 +9,294 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- JS -->
+    <script src="script.js" defer></script>
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon (4).ico">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Tab Title -->
-    <title>Download</title>
+    <title>Soundwave</title>
 
 </head>
 
 <body>
+
     <!-- Top Navbar -->
     <nav class="navbar">
-    
+
         <div class="title-s">
-            <a href="index.html"><img class="soundwave" src="images/sound-bars-pulse.png" alt="soundwave">
-                <div class="title">Soundwave
-            </a>
+            <a href="index.html"><img class="soundwave" src="images/sound-bars-pulse.png" alt="soundwave"></a>
+            <a class="title" href="index.html">Soundwave</a>
+            <a href=""></a>
         </div>
-        </div>
-    
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
         <div class="navbar-links">
-            <ul class="links-1">
-                <a href="index.html">Premium</a>
-                <a href="support.html">Support</a>
-                <a href="download.html">Download</a>
+            <ul>
+                <ul class="links-1">
+                    <li><a href="index.html">Premium</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="download.html">Download</a></li>
+                    <li class="seperator">|</li>
+                    <li class="login"><a href="#">Sign up</a></li>
+                    <li class="login"><a href="#">Log in</a></li>
+                </ul>
             </ul>
-            <p>|</p>
-    
-            <div class="links-2">
-                <a href="gallery.html">Sign up</a>
-                <a class="links-2" href="about.html">Log in</a>
-            </div>
-    
+
         </div>
-    
+
     </nav>
 
+
+    <!-- 1st block -->
     <div class="download">
-        <div class="dowload-box">
-            <h1>Download Now</h1>
-            <h3>Play millions of songs on your device</h3>
+
+        <div class="download-text">
+            <img src="images/check.png" alt="check">
+            <h2 class="download-title">Download Soundwave</h2>
+            <h3 class="download-subtext"> Play and mix millions of songs from your device. </h3>
+
+            <div class="download-button">
+                <button class="button-18" id="button-download" role="button">Download</button>
+            </div>
+
         </div>
     </div>
+
+    <!-- 2nd block -->
+    <div class="benefit">
+        <h1 class="benefit-title">Why go Premium?</h1>
+
+        <div class="contain">
+
+            <div class="contain-block">
+                <img id="icon" src="images/downloading.png" alt="download">
+                <h4 id="icon-text">Download any music, anytime</h4>
+            </div>
+
+            <div class="contain-block">
+                <img id="icon" src="images/play-button.png" alt="play">
+                <h4 id="icon-text">Play music ad-free anytime, anywhere</h4>
+            </div>
+
+            <div class="contain-block">
+                <img id="icon" src="images/equalizer.png" alt="mix">
+                <h4 id="icon-text">Mix your playists</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 3rd block -->
+    <div class="plan">
+        <h1 class="plan-title">Premium Plans </h1>
+
+        <div class="container">
+
+            <div class="block-1">
+
+                <div class="month-tag">
+                    <h4 class="month">3 Months off</h4>
+                </div>
+
+                <h3 class="block-title">Individual</h3>
+                <h4 class="block-subtext">$5.99/month after offer period</h4>
+                <h4 class="block-subtext-account"> 1 account</h4>
+                <hr id="line">
+
+                <div class="plan-benefits">
+                    <h4>+ Ad-free music</h4>
+                    <h4>+ Play anywhere, even offline</h4>
+                    <h4>+ On-demand playback</h4>
+                    <h4>+ Mix your playlists</h4>
+                </div>
+
+                <div class="subscribe-button">
+                    <button class="button-18" role="button">Subscribe</button>
+                </div>
+
+                <div class="plan-terms">
+                    <a class="terms-2" href="index.html">
+                        <h6 class="plan-terms-text">Terms and conditions
+                    </a> apply. 3 months free not available for users who have already had Premium</h6>
+                </div>
+
+            </div>
+            <div class="block-1">
+
+                <div class="month-tag">
+                    <h4 class="month">3 Months off</h4>
+                </div>
+
+                <h3 class="block-title">Family</h3>
+                <h4 class="block-subtext">$12.99/month after offer period</h4>
+                <h4 class="block-subtext-account"> 5 accounts</h4>
+                <hr id="line">
+
+                <div class="plan-benefits">
+                    <h4>+ Ad-free music</h4>
+                    <h4>+ Play anywhere, even offline</h4>
+                    <h4>+ On-demand playback</h4>
+                    <h4>+ Child controls</h4>
+                    <h4>+ Mix your playlists</h4>
+                </div>
+
+                <div class="subscribe-button-2">
+                    <button class="button-18" role="button">Subscribe</button>
+                </div>
+
+
+                <div class="plan-terms">
+                    <a class="terms-2" href="index.html">
+                        <h6 class="plan-terms-text">Terms and conditions
+                    </a> apply. 3 months free not available for users who have already had
+                    Premium</h6>
+                </div>
+
+            </div>
+            <div class="block-1">
+
+                <div class="month-tag">
+                    <h4 class="month">3 Months off</h4>
+                </div>
+
+                <h3 class="block-title">Student</h3>
+                <h4 class="block-subtext">$2.99/month after offer period</h4>
+                <h4 class="block-subtext-account"> 1 account</h4>
+                <hr id="line">
+
+                <div class="plan-benefits">
+                    <h4>+ Ad-free music</h4>
+                    <h4>+ Play anywhere, even offline</h4>
+                    <h4>+ On-demand playback</h4>
+                    <h4>+ Mix your playlists</h4>
+                </div>
+
+                <div class="subscribe-button">
+                    <button class="button-18" role="button">Subscribe</button>
+                </div>
+
+                <div class="plan-terms">
+                    <a class="terms-2" href="index.html">
+                        <h6 class="plan-terms-text">Terms and conditions
+                    </a> apply. 3 months free not available for users who have already had
+                    Premium</h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer, 4th block -->
+    <footer>
+
+        <div class="social-media">
+            <ul>
+                <li>
+                    <a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-instagram"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="rectangle">
+
+            <div class="rect-block-1">
+                <a href="index.html"><img class="soundwave-2" src="images/sound-bars-pulse.png" alt="soundwave">
+                    <div class="title-2">Soundwave
+                </a>
+            </div>
+        </div>
+
+        <div class="rect-block">
+            <h3 class="rect-block-title">COMPANY</h3>
+            <h4>About</h4>
+            <h4>Jobs</h4>
+            <h4>Learn more</h4>
+        </div>
+
+        <div class="rect-block">
+            <h3>COMMUNITIES</h3>
+            <h4>For Artist</h4>
+            <h4>Developers</h4>
+            <h4>Advertising</h4>
+            <h4>Investors</h4>
+            <h4>Vendors</h4>
+
+        </div>
+
+        <div class="rect-block">
+            <h3>USEFUL LINKS</h3>
+            <h4>Support</h4>
+            <h4>Web Player</h4>
+            <h4>Free Mobile App</h4>
+        </div>
+
+        <div class="footer-bottom">
+            <span>
+                <a class="footer-links" href="#">Legal</a>
+            </span>
+            </span>
+            <a class="footer-links" href="#">Privacy Center</a>
+            </span>
+            </span>
+            <a class="footer-links" href="#">Privacy Policy</a>
+            </span>
+            </span>
+            <a class="footer-links" href="#">Cookies</a>
+            </span>
+            </span>
+            <a class="footer-links" href="#">About ads</a>
+            </span>
+            </span>
+            <a class="footer-links" href="#">Additional Privacy Disclosures</a>
+            </span>
+        </div>
+
+        </div>
+
+        <!-- <div class="footer-bottom">
+            <span>
+                <a class= "footer-links" href="link">Legal</a>
+            </span>
+            </span>
+                <a class= "footer-links" href="link">Privacy Center</a>
+            </span>
+            </span>
+                <a class= "footer-links" href="link">Privacy Policy</a>
+            </span>
+            </span>
+                <a class= "footer-links" href="link">Cookies</a>
+            </span>
+            </span>
+                <a class= "footer-links" href="link">About ads</a>
+            </span>
+            </span>
+                <a class= "footer-links"    href="link">Additional Privacy Disclosures</a>
+            </span>
+        </div> -->
+
+    </footer>
+
 </body>
+
+</html>
