@@ -150,6 +150,27 @@ button {
     height: 320px;
 }
 
+.device-buttons {
+    display: flex;
+    justify-content: inline;
+    margin: auto;
+    text-align: center;
+    /* padding-left: 230px; */
+    padding-top: 20px;
+    height: 40px;
+    width: 50%;
+}
+
+.device-buttons img {
+    padding-left: 10px;
+}
+
+.device-buttons .google {
+    height: 50px;
+    width: 200px;
+    padding-top: 0px;
+}
+
 .device-text {
     text-align: center;
     display: block;
@@ -157,8 +178,16 @@ button {
 
 .device-text h1 {
     color: #000000;
-    font-size: 30px;
-    padding-top: 50px;
+    font-size: 35px;
+    margin: 10px;
+    padding-top: 70px;
+}
+
+.device-text h6 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
 }
 
 .download {
@@ -267,6 +296,24 @@ footer {
 
 .links-2 {
     padding-left: 20px;
+}
+
+.listen {
+    background-color: #202020;
+    height: 500px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.listen img {
+    width: 300px;
+}
+
+.listen p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    word-spacing: 25px;
 }
 
 #listening {
