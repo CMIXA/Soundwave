@@ -148,13 +148,10 @@ button {
 
 .device-buttons {
     display: flex;
-    justify-content: inline;
-    margin: auto;
-    text-align: center;
-    /* padding-left: 230px; */
+    justify-content: center;
+    margin: 16px;
     padding-top: 20px;
     height: 40px;
-    width: 50%;
 }
 
 .device-buttons img {
@@ -189,7 +186,7 @@ button {
 .download {
     background-color: rgb(49, 37, 158);
     display: block;
-    height: 500px;
+    height: 520px;
 }
 
 .download-text {
@@ -298,6 +295,7 @@ footer {
 }
 
 .listen p {
+    color: rgb(177, 177, 59);
     font-size: 20px;
     font-weight: 400;
     padding-top: 20px;
@@ -570,6 +568,28 @@ p {
     height: 500px;
 }
 
+.support-columns {
+    display: block;
+    height: 300px;
+    text-align: center;
+}
+
+.support-columns div {
+    background-color: #243066;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    color: black;
+    margin-top: 30px;
+    vertical-align: top;
+    word-spacing: 0px;
+}
+
+.support-columns div, h1 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
 .support-text {
     align-items: center;
     font-size: 20px;
@@ -581,6 +601,15 @@ p {
 
 .support-text h1 {
     font-size: 60px;
+}
+
+.support-text input {
+    background-image: url(images/loupe.png);
+    font-size: 16px;
+    padding-left: 30px;
+    margin-top: 40px;
+    height: 40px;
+    width: 700px;
 }
 
 .terms {
