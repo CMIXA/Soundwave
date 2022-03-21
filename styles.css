@@ -3,6 +3,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0%;
     text-decoration: none;
+    font-size: 1;
     /* box-sizing: border-box; */
 } 
 
@@ -172,8 +173,9 @@ button {
 .device-text h1 {
     color: #000000;
     font-size: 35px;
-    margin: 10px;
+    /* margin: 10px; */
     padding-top: 70px;
+    /* padding-bottom: 40px; */
 }
 
 .device-text h6 {
@@ -184,13 +186,14 @@ button {
 }
 
 .download {
-    background-color: rgb(49, 37, 158);
+    background-color: rgb(23, 40, 192);
     display: block;
     height: 520px;
 }
 
 .download-text {
     align-items: center;
+    height: 460px;
     font-size: 20px;
     font-weight: 500;
     line-height: 45px;
@@ -198,8 +201,10 @@ button {
     text-align: center;
 }
 
+
 .download-text img {
     width: 180px;
+    opacity: 100%;
 }
 
 .download-subtext {
@@ -262,6 +267,13 @@ footer {
 .individual {
     padding-left: 100px;
     padding-top: 60px;
+}
+
+.info {
+    background-color: #5c5c5c;
+    height: auto;
+    /* margin: 0;
+    padding: 0; */
 }
 
 #line {
@@ -563,31 +575,34 @@ p {
 }
 
 .support {
-    background-color: rgb(49, 37, 158);
+    background-image: url(images/blue.jpeg);
+    background-color: rgb(119, 155, 86);
+    background-blend-mode: color-burn;
     display: block;
-    height: 500px;
+    height: auto;
+    /* width: 100vw; */
 }
 
 .support-columns {
     display: block;
-    height: 300px;
+    height: 200px;
     text-align: center;
 }
 
 .support-columns div {
-    background-color: #243066;
     display: inline-block;
     width: 250px;
-    height: 250px;
+    height: 70px;
     color: black;
     margin-top: 30px;
     vertical-align: top;
     word-spacing: 0px;
 }
 
-.support-columns div, h1 {
-    font-size: 25px;
-    font-weight: 300;
+.support-columns .div, h1 {
+    color: #c4c4c4;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 .support-text {
@@ -595,21 +610,24 @@ p {
     font-size: 20px;
     font-weight: 500;
     line-height: 45px;
-    padding-top: 80px;
+    padding-top: 120px;
     text-align: center;
 }
 
 .support-text h1 {
+    color: #ffffff;
     font-size: 60px;
+    font-weight: 600;
 }
 
 .support-text input {
-    background-image: url(images/loupe.png);
+    border: #d8d8d8;
+    border-radius: 20px;
     font-size: 16px;
     padding-left: 30px;
     margin-top: 40px;
     height: 40px;
-    width: 700px;
+    width: 60%;
 }
 
 .terms {
@@ -640,6 +658,31 @@ p {
     font-weight: bold;
     padding-left: 6px;
     padding-top: 4px;
+}
+
+.visit {
+    height: 320px;
+}
+
+.visit-text {
+    text-align: center;
+    display: block;
+}
+
+.visit-text h1 {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px;
+    padding-top: 60px;
+}
+
+.visit-text h6 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 @media (max-width: 800px) {
