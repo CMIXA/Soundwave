@@ -300,6 +300,10 @@ footer {
     font-weight: 600;
 }
 
+/* li.links-1 {
+    margin-top: 3rem;
+} */
+
 .links-2 {
     padding-left: 1.25rem;
 }
@@ -474,13 +478,13 @@ p {
     display: block;
     text-decoration: none;
     color: white;
-    padding-top: 0.75rem;
+    padding-top: 1.625rem;
     padding-left: 0.125rem;
     padding-right: 1.25rem;
 }
 
 .login {
-    word-spacing: 0.75rem;
+    word-spacing: 0rem;
 }
 
 .seperator {
@@ -521,7 +525,7 @@ p {
 
 .rect-block {
     display: inline-block;
-    width: 6.875rem;
+    width: 10rem;
     height: 12.5rem;
     background-color: rgb(0, 0, 0);
     font-weight: 12.5rem;
@@ -720,7 +724,7 @@ p {
 
 .title-2 {
     float: left;
-    font-size: 1.6525rem;
+    font-size: 25px;
     font-weight: bold;
     padding-left: 0.375rem;
     padding-top: 0.25rem;
