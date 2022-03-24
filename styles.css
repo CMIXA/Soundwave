@@ -580,12 +580,45 @@ p {
 
 .signup {
     /* color: #000000; */
+    box-sizing: border-box;
     height: auto;
+    max-width: 450px;
     text-align: center;
+    margin: auto;
+}
+
+/* .signup-container {
+    height: auto;
+    width: 30rem;
+} */
+
+.signup-container div {
+    margin-top: 1.2rem;
 }
 
 .signup-form {
     padding-top: 3rem;
+}
+
+.signup-form h1 {
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+.signup-form h3 {
+    color: #000000;
+    float: left;
+    font-weight: 500;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+}
+
+.signup-form input {
+    border-radius: 0.3rem;
+    color: #000000;
+    height: 2.5rem;
+    width: 25rem;
+    padding-left: 1rem;
 }
 
 .signup-icon {
@@ -596,7 +629,7 @@ p {
 
 .signup-subtitle h1 {
     color: #000000;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 500;
     padding-top: 2rem;
 }
@@ -630,12 +663,7 @@ p {
 }
 
 .soundwave-signup {
-    width: 2.75rem;
-    /* margin-bottom: 20px; */
-    /* padding-top: 0rem;
-    float: left;
-    display: inline-block; */
-    /* margin-top: 1rem; */
+    width: 2.5rem;
 }
 
 .soundwave-2 {
@@ -739,10 +767,11 @@ p {
 
 .title-3 {
     color: #000000;
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 800;
     padding-left: 0.2rem;
-    padding-top: 0.3rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
 }
 
 .toggle-button {
