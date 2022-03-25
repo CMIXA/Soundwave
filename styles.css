@@ -325,6 +325,10 @@ footer {
     word-spacing: 1.25rem;
 }
 
+.links-1 a:hover {
+    color: #c4b9ff;
+}
+
 .links-1 a {
     font-weight: 600;
 }
