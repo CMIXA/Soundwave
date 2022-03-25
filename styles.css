@@ -596,18 +596,25 @@ p {
     margin-top: 1.2rem;
 }
 
+.signup-facebook {
+    background-color: #3f518b;
+    border-width: 0;
+    color: #fcfcfc;
+}
+
 .signup-form {
     padding-top: 3rem;
 }
 
 .signup-form h1 {
     color: #000000;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .signup-form h3 {
     color: #000000;
     float: left;
+    font-size: 0.9rem;
     font-weight: 500;
     padding-bottom: 0.4rem;
     padding-left: 1rem;
@@ -621,15 +628,39 @@ p {
     padding-left: 1rem;
 }
 
+.signup-form p {
+    color: #000000;
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.signup-gmail {
+    background-color: #fcfcfc;
+}
+
 .signup-icon {
     padding-top: 0.4rem;
     float: left;
     /* display: inline-block; */
 }
 
+.signup-pre {
+    padding-top: 1rem;
+}
+
+.signup-pre button {
+    border-radius: 2rem;
+    font-weight: 500;
+    height: 3rem;
+    margin-top: 1rem;
+    width: 25rem;
+}
+
 .signup-subtitle h1 {
     color: #000000;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 500;
     padding-top: 2rem;
 }
@@ -767,7 +798,7 @@ p {
 
 .title-3 {
     color: #000000;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
     padding-left: 0.2rem;
     padding-right: 1rem;
