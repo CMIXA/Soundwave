@@ -1,9 +1,9 @@
 * {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     margin: 0%;
     text-decoration: none;
-    font-size: 16px;
     /* box-sizing: border-box; */
 } 
 
@@ -39,28 +39,28 @@
 
 .block-title {
     color: #000000;
-    height: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
+    height: 2rem;
     padding-top: 0.5rem;
     padding-left: 1rem;
     text-align: left;
 }
 
 .block-1 {
-    -moz-box-shadow: 0 0 0.5rem #686868;
-    -webkit-box-shadow: 0 0 0.5rem #686868;
-    box-shadow: 0 0 0.5rem #686868;
-    display: inline-block;
-    width: 19.7rem;
-    height: 26.3rem;
     background-color: #ffffff;
-    color: #000000;
-    border-radius: 0.3rem;
     border: 0.25rem solid;
     border-color: #ffffff;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0.5rem #686868;
+    -moz-box-shadow: 0 0 0.5rem #686868;
+    -webkit-box-shadow: 0 0 0.5rem #686868;
+    color: #000000;
+    display: inline-block;
+    height: 26.3rem;
     margin-bottom: 2.5rem;
     vertical-align: top;
+    width: 19.7rem;
     word-spacing: 0rem;
 }
 
@@ -119,10 +119,10 @@ button {
 
 .column {
     display: inline-block;
-    padding-right: 1.875rem;
+    height: 100%;
     margin-left: 0.625rem;
     margin-right: 1.875rem;
-    height: 100%;
+    padding-right: 1.875rem;
     width: 25%;
     vertical-align: top;
 }
@@ -145,8 +145,8 @@ button {
 }
 
 .column-text ul {
-    padding-top: 0.625rem;
     padding-left: 0;
+    padding-top: 0.625rem;
     line-height: 2rem;
     list-style: none;
 }
@@ -159,8 +159,8 @@ button {
 
 .container  {
     margin-top: 1.25rem;
-    padding-top: 2.25rem;
     padding-bottom: 4.37rem;
+    padding-top: 2.25rem;
     text-align: center;
     word-spacing: 2rem;
 }
@@ -172,11 +172,11 @@ button {
 }
 
 .contain-block {
+    color: #000000;
     display: inline-block;
-    width: 20.63rem;
     height: 15.63rem;
-    color: black;
     vertical-align: top;
+    width: 20.63rem;
     word-spacing: 0px;
 }
 
@@ -186,10 +186,10 @@ button {
 
 .device-buttons {
     display: flex;
+    height: 2.5rem;
     justify-content: center;
     margin: 1rem;
     padding-top: 1.25rem;
-    height: 2.5rem;
 }
 
 .device-buttons img {
@@ -198,13 +198,13 @@ button {
 
 .device-buttons .google {
     height: 3.13rem;
-    width: 12.5rem;
     padding-top: 0rem;
+    width: 12.5rem;
 }
 
 .device-text {
-    text-align: center;
     display: block;
+    text-align: center;
 }
 
 .device-text h1 {
@@ -228,17 +228,17 @@ button {
 
 .download-text {
     align-items: center;
-    height: 28.75rem;
     font-size: 1.25rem;
     font-weight: 500;
+    height: 28.75rem;
     line-height: 2.81rem;
     padding-top: 3.75rem;
     text-align: center;
 }
 
 .download-text img {
-    width: 11.25rem;
     opacity: 100%;
+    width: 11.25rem;
 }
 
 .download-subtext {
@@ -255,8 +255,8 @@ button {
     background-color: #92920a;
     border-radius: 100%;
     font-size: 1.25rem;
-    padding: 1.25rem;
     margin: 0.31rem;
+    padding: 1.25rem;
     text-align: center;
     text-decoration: none;
     width: 1.25rem;
@@ -310,8 +310,8 @@ footer {
     color: #000000;
     font-size: 2.175rem;
     font-weight: 600;
-    text-align: center;
     padding-top: 1.875rem;
+    text-align: center;
 }
 
 #line {
@@ -397,11 +397,11 @@ footer {
 }
 
 .navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
     align-items: center;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
 .navbar-links {
@@ -419,12 +419,12 @@ footer {
 }
 
 .navbar-links li a {
-    display: block;
-    text-decoration: none;
     color: #ffffff;
-    padding-top: 1.625rem;
+    display: block;
     padding-left: 0.125rem;
     padding-right: 1.25rem;
+    padding-top: 1.625rem;
+    text-decoration: none;
 }
 
 p {
@@ -480,8 +480,8 @@ p {
 }
 
 #play {
-    padding-top: 1.875rem;
     padding-left: 12.5rem;
+    padding-top: 1.875rem;
     width: 6.875rem;
 }
 
@@ -520,27 +520,27 @@ p {
 }
 
 .rectangle {
-    padding-top: 5rem;
     padding-left: 10%;
+    padding-top: 5rem;
 }
 
 .rect-block {
+    background-color: #000000;
     display: inline-block;
-    width: 10rem;
     height: 12.5rem;
-    background-color: rgb(0, 0, 0);
     font-weight: 12.5rem;
     line-height: 2.5rem;
     padding-right: 0rem;
     padding-top: 0.125rem;
     text-align: left;
     vertical-align: top;
+    width: 10rem;
     word-spacing: 0rem;
 }
 
 .rect-block h3 {
-    font-size: 0.875rem;
     color: #798a94;
+    font-size: 0.875rem;
     font-weight: bolder;
 }
 
@@ -558,11 +558,11 @@ p {
 }
 
 .row-1 {
-    text-align: center;
     height: 18.75rem;
     margin-top: 1.875rem;
     padding-left: 11.25rem;
     padding-bottom: 1.25rem;
+    text-align: center;
 }
 
 .search-icon {
@@ -571,26 +571,20 @@ p {
 
 .seperator {
     display: block;
-    text-decoration: none;
     color: #ffffff;
     padding-top: 1.625rem;
     padding-left: 0.25rem;
     padding-right: 1.25rem;
+    text-decoration: none;
 }
 
 .signup {
-    /* color: #000000; */
     box-sizing: border-box;
     height: auto;
+    margin: auto;
     max-width: 450px;
     text-align: center;
-    margin: auto;
 }
-
-/* .signup-container {
-    height: auto;
-    width: 30rem;
-} */
 
 .signup-container div {
     margin-top: 1.2rem;
@@ -624,8 +618,8 @@ p {
     border-radius: 0.3rem;
     color: #000000;
     height: 2.5rem;
-    width: 25rem;
     padding-left: 1rem;
+    width: 25rem;
 }
 
 .signup-form p {
@@ -641,9 +635,8 @@ p {
 }
 
 .signup-icon {
-    padding-top: 0.4rem;
     float: left;
-    /* display: inline-block; */
+    padding-top: 0.4rem;
 }
 
 .signup-pre {
@@ -666,10 +659,9 @@ p {
 }
 
 .signup-title {
-    display: flex;
-    /* text-align: center; */
-    justify-content: center;
     align-items: center;
+    display: flex;
+    justify-content: center;
     padding-top: 1.5em;
 }
 
@@ -688,8 +680,8 @@ p {
 
 .soundwave {
     float: left;
-    padding-top: 0.55rem;
     padding-left: 3.125rem;
+    padding-top: 0.55rem;
     width: 2rem;
 }
 
@@ -711,9 +703,9 @@ p {
 }
 
 .support {
-    background-image: url(images/blue.jpeg);
-    background-color: #779b56;
     background-blend-mode: color-burn;
+    background-color: #779b56;
+    background-image: url(images/blue.jpeg);
     display: block;
     height: auto;
 }
@@ -726,12 +718,12 @@ p {
 }
 
 .support-columns div {
+    color: #000000;
     display: inline-block;
-    width: 15.625rem;
     height: 4.375rem;
-    color: black;
     margin-top: 1.875rem;
     vertical-align: top;
+    width: 15.625rem;
     word-spacing: 0rem;
 }
 
@@ -758,11 +750,11 @@ p {
     border-radius: 0.625rem;
     color: #000000;
     font-size: 1rem;
-    padding-left: 1.875rem;
-    position: relative;
+    height: 2.5rem;
     margin-right: 3.75rem;
     margin-top: 2.5rem;
-    height: 2.5rem;
+    padding-left: 1.875rem;
+    position: relative;
     width: 60%;
 }
 
@@ -806,21 +798,21 @@ p {
 }
 
 .toggle-button {
-    position: absolute;
-    top: 0.75rem;
-    right: 1rem;
     display: none;
     flex-direction: column;
-    justify-content: space-between;
-    width: 1.875rem;
     height: 1.3125rem;
+    justify-content: space-between;
+    position: absolute;
+    right: 1rem;
+    top: 0.75rem;
+    width: 1.875rem;
 }
 
 .toggle-button .bar {
-    height: 0.1875rem;
-    width: 100%;
     background-color: #ffffff;
     border-radius: 0.625rem;
+    height: 0.1875rem;
+    width: 100%;
 }
 
 .visit {
@@ -829,8 +821,8 @@ p {
 }
 
 .visit-text {
-    text-align: center;
     display: block;
+    text-align: center;
 }
 
 .visit-text h1 {
@@ -844,14 +836,14 @@ p {
     color: #000000;
     font-size: 1rem;
     font-weight: 300;
-    padding-top: 0.625rem;
     padding-bottom: 1.875rem;
+    padding-top: 0.625rem;
 }
 
 @media (max-width: 800px) {
     .navbar {
-        flex-direction: column;
         align-items: flex-start;
+        flex-direction: column;
     }
 
     .toggle-button {
