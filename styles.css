@@ -67,8 +67,13 @@
 button {
     background-color: #585858;
     color: #000000;
+    font-weight: 500;
     height: 3.1rem;
     width: 8.8rem;
+}
+
+button:hover {
+    transform: scale(1.04) perspective(1rem)
 }
 
 .button-18 {
@@ -326,7 +331,7 @@ footer {
 }
 
 .links-1 a:hover {
-    color: #c4b9ff;
+    color: #00e73a;
 }
 
 .links-1 a {
@@ -529,7 +534,6 @@ p {
 }
 
 .rect-block {
-    background-color: #000000;
     display: inline-block;
     height: 12.5rem;
     font-weight: 12.5rem;
@@ -553,7 +557,6 @@ p {
 }
 
 .rect-block-1 {
-    background-color: #000000;
     display: inline-block;
     height: 12.5rem;
     text-align: left;
@@ -562,11 +565,12 @@ p {
 }
 
 .row-1 {
-    height: 18.75rem;
+    height: auto;
     margin-top: 1.875rem;
     padding-left: 11.25rem;
     padding-bottom: 1.25rem;
     text-align: center;
+    width: 80%;
 }
 
 .search-icon {
@@ -590,6 +594,13 @@ p {
     text-align: center;
 }
 
+.signup h2 {
+    color: #818181;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
 .signup-container div {
     margin-top: 1.2rem;
 }
@@ -600,8 +611,16 @@ p {
     color: #fcfcfc;
 }
 
-.signup-form {
-    padding-top: 3rem;
+.signup-form-bottom {
+    text-align: center;
+}
+
+.signup-form-bottom button {
+    background-color: #6a79ac;
+    border-radius: 2rem;
+    border-width: 0rem;
+    height: 3.5rem;
+    width: 9rem;
 }
 
 .signup-form h1 {
@@ -620,9 +639,12 @@ p {
 
 .signup-form input {
     border-radius: 0.3rem;
+    border-width: 0.1rem;
     color: #000000;
-    height: 2.5rem;
+    font-size: 0.9rem;
+    height: 2.7rem;
     padding-left: 1rem;
+    padding-top: 0.2rem;
     width: 25rem;
 }
 
@@ -652,6 +674,7 @@ p {
     font-weight: 500;
     height: 3rem;
     margin-top: 1rem;
+    position: relative;
     width: 25rem;
 }
 
@@ -712,11 +735,12 @@ p {
     background-image: url(images/blue.jpeg);
     display: block;
     height: auto;
+    padding-bottom: 6rem;
 }
 
 .support-columns {
     display: block;
-    height: 12.5rem;
+    height: auto;
     line-height: 1.25rem;
     text-align: center;
 }
@@ -858,7 +882,17 @@ p {
 
     .navbar-links {
         display: none;
+        background-color: #000000;
+        height: auto;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        position: relative;
         width: 100%;
+        /* -webkit-transition: height 0.5s linear;
+        -moz-transition: height 0.5s linear;
+        -ms-transition: height 0.5s linear;
+        -o-transition: height 0.5s linear;
+        transition: height 0.5s linear; */
     }
 
     .navbar-links ul {
@@ -871,6 +905,7 @@ p {
     }
 
     .navbar-links ul li a {
+        font-size: 1.5rem;
         padding: .5rem 1rem;
     }
 
@@ -878,7 +913,21 @@ p {
         display: flex;
     }
 
+    .seperator {
+        display: none;
+    }
+
     .title-s {
         padding-top: 0.625rem;
     }
+
+    /* .navbar-links.open {
+        height: 200px;
+        -webkit-transition: height 3.5s linear;
+        -moz-transition: height 3.5s linear;
+        -ms-transition: height 3.5s linear;
+        -o-transition: height 3.5s linear;
+        transition: height 3.5s linear;
+    }  */
+
 }
