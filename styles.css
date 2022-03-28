@@ -73,7 +73,7 @@ button {
 }
 
 button:hover {
-    transform: scale(1.04) perspective(1rem)
+    transform: scale(1.01) perspective(1rem)
 }
 
 .button-18 {
@@ -597,8 +597,13 @@ p {
 .signup h2 {
     color: #8f8f8f;
     font-weight: 500;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
     padding-top: 2rem;
+}
+
+.signup-apple {
+    color: #fcfcfc;
+    background-color: #141414;
 }
 
 .signup-container div {
@@ -615,11 +620,30 @@ p {
     text-align: center;
 }
 
-.signup-form-bottom button {
+.radio-inline-1 {
+    text-align: left;
+}
+
+.remember input {
+    width: 1rem;
+}
+
+#form-button {
     background-color: #00dd37;
     border-radius: 2rem;
     border-width: 0rem;
     height: 3.5rem;
+    width: 9rem;
+}
+
+#form-button-2 {
+    background-color: #00dd37;
+    border-radius: 2rem;
+    border-width: 0rem;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    margin-left: 18rem;
+    margin-top: 0.7rem;
     width: 9rem;
 }
 
@@ -662,7 +686,7 @@ p {
 }
 
 #gender form {
-    padding-right: 1rem;
+    padding-right: 3rem;
 }
 
 .signup-form h3 {
@@ -672,6 +696,11 @@ p {
     padding-bottom: 0.4rem;
     padding-left: 1rem;
     text-align: left;
+}
+
+.signup-form hr {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .signup-form input {
@@ -698,8 +727,29 @@ p {
     width: 10rem;
 }
 
+.signup-form #password {
+    padding-top: 0.5rem;
+    position: absolute;
+    text-align: left;
+}
+
+.signup-form #password a {
+    color: #000000;
+    padding-left: 1rem;
+}
+
+.signup-form #password a:hover {
+    text-decoration: underline;
+}
+
+#gender {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
 .radio-inline {
     color: #000000;
+    font-size: 0.9rem;
     padding-right: 1rem;
 }
 
@@ -740,6 +790,12 @@ p {
     padding-top: 0.5rem;
 }
 
+.signup-button {
+    background-color: #fcfcfc;
+    color: #2e2e2e;
+    margin-bottom: 2rem;
+}
+
 .signup-gmail {
     background-color: #fcfcfc;
 }
@@ -750,14 +806,25 @@ p {
 }
 
 .signup-pre {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 .signup-pre button {
     border-radius: 2rem;
+    border-width: 0.08rem;
     font-weight: 500;
     height: 3rem;
     margin-top: 1rem;
+    position: relative;
+    width: 25rem;
+}
+
+.signup-pre-2 button {
+    border-radius: 2rem;
+    border-width: 0.08rem;
+    color: #5c5b5b;
+    font-weight: 500;
+    height: 3rem;
     position: relative;
     width: 25rem;
 }
