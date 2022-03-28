@@ -616,7 +616,7 @@ p {
 }
 
 .signup-form-bottom button {
-    background-color: #6a79ac;
+    background-color: #00dd37;
     border-radius: 2rem;
     border-width: 0rem;
     height: 3.5rem;
@@ -661,19 +661,23 @@ p {
     font-size: 1.2rem;
 }
 
+#gender form {
+    padding-right: 1rem;
+}
+
 .signup-form h3 {
     color: #000000;
-    float: left;
     font-size: 0.8rem;
     font-weight: 500;
     padding-bottom: 0.4rem;
     padding-left: 1rem;
+    text-align: left;
 }
 
 .signup-form input {
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
     border-color: #cccccc;
-    border-width: 0.12rem;
+    border-width: 0.05rem;
     color: #000000;
     font-size: 0.9rem;
     height: 2.7rem;
@@ -684,6 +688,56 @@ p {
 
 .signup-form input:hover {
     border-color: #000000;
+}
+
+.signup-form #birthdate input {
+    color: #7e7e7e;
+    margin-right: 14.4rem;
+    padding-right: 0.7rem;
+    text-align: left;
+    width: 10rem;
+}
+
+.radio-inline {
+    color: #000000;
+    padding-right: 1rem;
+}
+
+.radio-inline input {
+    padding-right: 0.6rem;
+}
+
+.signup-form #gender input {
+    color: #000000;
+    height: 1rem;
+    width: 2rem;
+}
+
+/* #gender h3 {
+    padding: 0;
+} */
+
+/* .signup-form #gender-buttons {
+    display: block;
+    padding-right: 9.5rem;
+}
+
+.signup-form #gender-buttons div {
+    color: #000000;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 0rem;
+    width: 6rem;
+} */
+
+.signup-form form {
+    margin-right: 4rem;
+    margin-top: 0.2rem;
+}
+
+.signup-form #profile {
+    font-weight: 400;
+    padding-top: 0.5rem;
 }
 
 .signup-gmail {
