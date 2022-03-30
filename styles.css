@@ -289,6 +289,10 @@ footer {
     word-spacing: 0rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #icon {
     padding-top: 1.88rem;
     width: 8.125rem;
