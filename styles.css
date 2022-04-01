@@ -122,54 +122,6 @@ button:hover {
     color: #0000004d;
 }
 
-.column {
-    display: inline-block;
-    height: 100%;
-    margin-left: 0.625rem;
-    margin-right: 1.875rem;
-    padding-right: 1.875rem;
-    width: 25%;
-    vertical-align: top;
-}
-
-.column-text {
-    text-align: left;
-}
-
-.column-text a {
-    color: #006e18;
-    font-size: 1.1875rem;
-    font-weight: 500;
-    list-style: none;
-}
-
-.column-text h1 {
-    color: #000000;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
-.column-text ul {
-    padding-left: 0;
-    padding-top: 0.625rem;
-    line-height: 2rem;
-    list-style: none;
-}
-
-.conditions {
-    padding-right: 40%;
-    padding-top: 2rem;
-    font-weight: 500;
-}
-
-.container  {
-    margin-top: 1.25rem;
-    padding-bottom: 4.37rem;
-    padding-top: 2.25rem;
-    text-align: center;
-    word-spacing: 2rem;
-}
-
 .contain {
     padding-top: 1.25rem;
     text-align: center;
@@ -183,6 +135,14 @@ button:hover {
     vertical-align: top;
     width: 20.63rem;
     word-spacing: 0px;
+}
+
+.container  {
+    margin-top: 1.25rem;
+    padding-bottom: 4.37rem;
+    padding-top: 2.25rem;
+    text-align: center;
+    word-spacing: 2rem;
 }
 
 .device {
@@ -231,6 +191,11 @@ button:hover {
     height: 32.5rem;
 }
 
+.download-subtext {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
 .download-text {
     align-items: center;
     font-size: 1.25rem;
@@ -244,11 +209,6 @@ button:hover {
 .download-text img {
     opacity: 100%;
     width: 11.25rem;
-}
-
-.download-subtext {
-    font-size: 1rem;
-    font-weight: 300;
 }
 
 .download-title {
@@ -313,6 +273,46 @@ html {
     background-color: #f7f7f7;
     display: block;
     height: auto;
+    padding-bottom: 3rem;
+}
+
+.info-column {
+    display: inline-block;
+    height: auto;
+    margin-left: 5rem;
+    padding-top: 2rem;
+    justify-content: space-between;
+    width: 13rem;
+    vertical-align: top;
+}
+
+.info-column-text {
+    text-align: left;
+}
+
+.info-column-text a {
+    color: #006e18;
+    font-size: 1.1875rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+.info-column-text h1 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.info-column-text ul {
+    padding-left: 0;
+    padding-top: 0.625rem;
+    line-height: 2rem;
+    list-style: none;
+}
+
+.info-row {
+    height: auto;
+    text-align: center;
 }
 
 .info-title {
@@ -334,12 +334,12 @@ html {
     word-spacing: 1.25rem;
 }
 
-.links-1 a:hover {
-    color: #00e73a;
-}
-
 .links-1 a {
     font-weight: 600;
+}
+
+.links-1 a:hover {
+    color: #00e73a;
 }
 
 .links-2 {
@@ -514,6 +514,12 @@ p {
     word-spacing: 1.875rem;
 }
 
+.premium-conditions {
+    padding-right: 40%;
+    padding-top: 2rem;
+    font-weight: 500;
+}
+
 .premium-subtext {
     font-weight: 500;
     padding-top: 1.25rem;
@@ -562,19 +568,11 @@ p {
 
 .rect-block-1 {
     display: inline-block;
-    height: 12.5rem;
+    height: auto;
+    padding-bottom: 1rem;
     text-align: left;
     vertical-align: top;
     width: 15.625rem;
-}
-
-.row-1 {
-    height: auto;
-    margin-top: 1.875rem;
-    padding-left: 11.25rem;
-    padding-bottom: 1.25rem;
-    text-align: center;
-    width: 80%;
 }
 
 .search-icon {
@@ -591,9 +589,9 @@ p {
 }
 
 .signup {
-    box-sizing: border-box;
     height: auto;
     margin: auto;
+    width: 100vw;
     max-width: 450px;
     text-align: center;
 }
@@ -767,23 +765,6 @@ p {
     width: 2rem;
 }
 
-/* #gender h3 {
-    padding: 0;
-} */
-
-/* .signup-form #gender-buttons {
-    display: block;
-    padding-right: 9.5rem;
-}
-
-.signup-form #gender-buttons div {
-    color: #000000;
-    display: inline-block;
-    font-size: 0.9rem;
-    margin: 0rem;
-    width: 6rem;
-} */
-
 .signup-form form {
     margin-right: 4rem;
     margin-top: 0.2rem;
@@ -848,15 +829,13 @@ p {
 }
 
 .social-media {
-    padding-right: 5rem;
-    padding-top: 6.25rem;
+    padding-right: 10%;
+    padding-top: 1rem;
     float: right;
 }
 
 .social-media li {
-    clear: both!important;
     font-size: 1.25rem;
-    position: relative;
     list-style: none;
 }
 
@@ -1063,8 +1042,17 @@ p {
         display: flex;
     }
 
+    /* .search-icon {
+        display: none;
+    } */
+
     .seperator {
         display: none;
+    }
+
+    .signup {
+        box-sizing: border-box;
+        max-width: 400px;
     }
 
     .title-s {
