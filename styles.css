@@ -395,7 +395,7 @@ html {
     text-decoration: none;
 }
 
-.navbar-links #login{
+.login a {
     word-spacing: 0rem;
 }
 
@@ -481,6 +481,7 @@ html {
 }
 
 .plan-month-tag h4 {
+    color: #ffffff;
     font-size: smaller;
     font-weight: 700;
 }
