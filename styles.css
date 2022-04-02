@@ -4,7 +4,6 @@
     font-size: 16px;
     margin: 0%;
     text-decoration: none;
-    /* box-sizing: border-box; */
 } 
 
 .benefit {
@@ -14,54 +13,23 @@
     width: 100%;
 }
 
+.benefit-container-block h4 {
+    color: #000000;
+    font-size: 1.25rem;
+    padding-top: 1rem;
+}
+
+.benefit-container-block img {
+    padding-top: 1.88rem;
+    width: 8.125rem;
+}
+
 .benefit-title {
     color: #000000;
     font-size: 2.5rem;
     font-weight: 700;
     padding-top: 2.5rem;
     text-align: center;
-}
-
-.block-subtext {
-    color: #000000;
-    font-weight: 400;
-    padding-left: 1rem;
-    text-align: left;
-}
-
-.block-subtext-account {
-    color: #000000;
-    font-weight: 400;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    text-align: left;
-}
-
-.block-title {
-    color: #000000;
-    font-size: 1.5rem;
-    font-weight: 500;
-    height: 2rem;
-    padding-top: 0.5rem;
-    padding-left: 1rem;
-    text-align: left;
-}
-
-.block-1 {
-    background-color: #ffffff;
-    border: 0.25rem solid;
-    border-color: #ffffff;
-    border-radius: 0.3rem;
-    box-shadow: 0 0 0.5rem #686868;
-    -moz-box-shadow: 0 0 0.5rem #686868;
-    -webkit-box-shadow: 0 0 0.5rem #686868;
-    color: #000000;
-    display: inline-block;
-    height: 26.3rem;
-    margin-bottom: 2.5rem;
-    vertical-align: top;
-    width: 19.7rem;
-    word-spacing: 0rem;
 }
 
 button {
@@ -122,27 +90,19 @@ button:hover {
     color: #0000004d;
 }
 
-.contain {
+.benefit-container {
     padding-top: 1.25rem;
     text-align: center;
     word-spacing: 3.13rem;
 }
 
-.contain-block {
+.benefit-container-block {
     color: #000000;
     display: inline-block;
     height: 15.63rem;
     vertical-align: top;
     width: 20.63rem;
     word-spacing: 0px;
-}
-
-.container  {
-    margin-top: 1.25rem;
-    padding-bottom: 4.37rem;
-    padding-top: 2.25rem;
-    text-align: center;
-    word-spacing: 2rem;
 }
 
 .device {
@@ -237,6 +197,43 @@ footer {
     padding-top: 9.38rem;
 }
 
+.footer-block {
+    display: inline-block;
+    height: 12.5rem;
+    font-weight: 12.5rem;
+    line-height: 2.5rem;
+    padding-right: 0rem;
+    padding-top: 0.125rem;
+    text-align: left;
+    vertical-align: top;
+    width: 10rem;
+    word-spacing: 0rem;
+}
+
+.footer-block h3 {
+    color: #798a94;
+    font-size: 0.875rem;
+    font-weight: bolder;
+}
+
+.footer-block h4 {
+    font-weight: 200;
+}
+
+.footer-block-1 {
+    display: inline-block;
+    height: auto;
+    padding-bottom: 1rem;
+    text-align: left;
+    vertical-align: top;
+    width: 15.625rem;
+}
+
+.footer-container {
+    padding-left: 10%;
+    padding-top: 5rem;
+}
+
 .footer-links {
     color: #798a94;
     font-size: 0.69rem;
@@ -251,17 +248,6 @@ footer {
 
 html {
     scroll-behavior: smooth;
-}
-
-#icon {
-    padding-top: 1.88rem;
-    width: 8.125rem;
-}
-
-#icon-text {
-    color: #000000;
-    font-size: 1.25rem;
-    padding-top: 1rem;
 }
 
 .individual {
@@ -321,13 +307,6 @@ html {
     font-weight: 600;
     padding-top: 1.875rem;
     text-align: center;
-}
-
-#line {
-    background-color: #000000;
-    border-color: #464646;
-    margin: auto;
-    width: 18.75rem;
 } 
 
 .links-1 {
@@ -372,10 +351,6 @@ html {
     width: 34.375rem;
 }
 
-.login {
-    word-spacing: 0rem;
-}
-
 #mix {
     padding-left: 12.5rem;
     padding-top: 1.875rem;
@@ -385,20 +360,6 @@ html {
 #mix-text {
     background-color: #ffffff;
     color: #000000;
-}
-
-.month{
-    font-size: smaller;
-    font-weight: 700;
-}
-
-.month-tag {
-    background-color: #251c7c;
-    border-radius: 0.5rem;
-    margin-left: 0.875rem;
-    margin-top: 0.4375rem;
-    padding: 0.1875rem;
-    width: 6.25rem;
 }
 
 .navbar {
@@ -421,12 +382,6 @@ html {
     height: 100%;
 }
 
-.navbar-links ul {
-    display: flex;
-    margin: 0;
-    padding-right: 1.25rem;
-}
-
 .navbar-links li {
     list-style: none;
 }
@@ -440,9 +395,14 @@ html {
     text-decoration: none;
 }
 
-p {
-    padding-left: 1.25rem;
-    font-weight: 500;
+.navbar-links #login{
+    word-spacing: 0rem;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding-right: 1.25rem;
 }
 
 .plan {
@@ -463,6 +423,76 @@ p {
     font-weight: 300;
 }
 
+.plan-block-1 {
+    background-color: #ffffff;
+    border: 0.25rem solid;
+    border-color: #ffffff;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0.5rem #686868;
+    -moz-box-shadow: 0 0 0.5rem #686868;
+    -webkit-box-shadow: 0 0 0.5rem #686868;
+    color: #000000;
+    display: inline-block;
+    height: 26.3rem;
+    margin-bottom: 2.5rem;
+    vertical-align: top;
+    width: 19.7rem;
+    word-spacing: 0rem;
+}
+
+.plan-block-1 hr {
+    border-color: #464646;
+    margin: auto;
+    width: 18.75rem;
+}
+
+.plan-block-1 h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.plan-block-1 h4 {
+    color: #000000;
+    font-weight: 400;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.plan-container  {
+    margin-top: 1.25rem;
+    padding-bottom: 4.37rem;
+    padding-top: 2.25rem;
+    text-align: center;
+    word-spacing: 2rem;
+}
+
+.plan-month-tag {
+    background-color: #251c7c;
+    border-radius: 0.5rem;
+    margin-left: 0.875rem;
+    margin-top: 0.4375rem;
+    padding: 0.1875rem;
+    width: 6.25rem;
+}
+
+.plan-month-tag h4 {
+    font-size: smaller;
+    font-weight: 700;
+}
+
+.plan-subtext {
+    color: #000000;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
 .plan-subtitle {
     color: #000000;
     font-size: 1rem;
@@ -477,6 +507,12 @@ p {
     padding-right: 1.875rem;
     padding-top: 0.625rem;
     text-align: left;
+}
+
+.plan-terms a {
+    color: #000000;
+    font-size: 0.7rem;
+    text-decoration: underline;
 }
 
 .plan-terms-text {
@@ -520,9 +556,8 @@ p {
     font-weight: 500;
 }
 
-.premium-subtext {
-    font-weight: 500;
-    padding-top: 1.25rem;
+.premium-terms {
+    text-decoration: underline;
 }
 
 .premium-text {
@@ -533,46 +568,22 @@ p {
     padding-top: 7.5rem;
 }
 
-.premium-title {
+.premium-text h2 {
     font-size: 2.625rem;
     padding-bottom: 0.625rem;
 }
 
-.rectangle {
-    padding-left: 10%;
-    padding-top: 5rem;
+.premium-text h3 {
+    font-weight: 500;
+    padding-top: 1.25rem;
 }
 
-.rect-block {
-    display: inline-block;
-    height: 12.5rem;
-    font-weight: 12.5rem;
-    line-height: 2.5rem;
-    padding-right: 0rem;
-    padding-top: 0.125rem;
+.radio-inline-1 {
     text-align: left;
-    vertical-align: top;
-    width: 10rem;
-    word-spacing: 0rem;
 }
 
-.rect-block h3 {
-    color: #798a94;
-    font-size: 0.875rem;
-    font-weight: bolder;
-}
-
-.rect-block h4 {
-    font-weight: 200;
-}
-
-.rect-block-1 {
-    display: inline-block;
-    height: auto;
-    padding-bottom: 1rem;
-    text-align: left;
-    vertical-align: top;
-    width: 15.625rem;
+.remember input {
+    width: 1rem;
 }
 
 .search-icon {
@@ -591,7 +602,6 @@ p {
 .signup {
     height: auto;
     margin: auto;
-    width: 100vw;
     max-width: 450px;
     text-align: center;
 }
@@ -599,54 +609,134 @@ p {
 .signup h2 {
     color: #8f8f8f;
     font-weight: 500;
-    padding-bottom: 0.5rem;
-    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
 }
 
 .signup-apple {
-    color: #fcfcfc;
-    background-color: #141414;
+    background-color: #202020;
+    color: #ffffff;
+}
+
+.signup-button {
+    background-color: #fcfcfc;
+    color: #2e2e2e;
+    margin-bottom: 2rem;
 }
 
 .signup-container div {
     margin-top: 1.2rem;
 }
 
+.signup-container #gender {
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.signup-container #gender #button {
+    color: #000000;
+    font-size: 0.9rem;
+    padding-right: 1rem;
+}
+
+.signup-container #gender #button input {
+    height: 1rem;
+    padding-right: 0.6rem;
+    width: 2rem;
+}
+
+.signup-container form {
+    margin-right: 4rem;
+    margin-top: 0.2rem;
+}
+
+.signup-container #profile {
+    font-weight: 400;
+    padding-top: 0.5rem;
+}
+
 .signup-facebook {
     background-color: #3f518b;
-    border-width: 0;
     color: #fcfcfc;
 }
 
-.signup-form-bottom {
-    text-align: center;
-}
-
-.radio-inline-1 {
+.signup-form #birthdate input {
+    color: #7e7e7e;
+    margin-right: 14.4rem;
+    padding-right: 0.7rem;
     text-align: left;
+    width: 10rem;
 }
 
-.remember input {
-    width: 1rem;
-}
-
-#form-button {
+.signup-form #form-button {
     background-color: #00dd37;
     border-radius: 2rem;
     border-width: 0rem;
-    height: 3.5rem;
-    width: 9rem;
 }
 
-#form-button-2 {
+.signup-form #form-button-2 {
     background-color: #00dd37;
     border-radius: 2rem;
     border-width: 0rem;
     font-size: 1.2rem;
-    height: 3.5rem;
     margin-left: 18rem;
     margin-top: 0.7rem;
-    width: 9rem;
+}
+
+.signup-form hr {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.signup-form h1 {
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.signup-form h3 {
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.signup-form input {
+    border-radius: 0.2rem;
+    border-color: #cccccc;
+    border-width: 0.05rem;
+    color: #000000;
+    font-size: 0.9rem;
+    height: 2.7rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    width: 25rem;
+}
+
+.signup-form input:hover {
+    border-color: #000000;
+}
+
+.signup-form #password {
+    padding-top: 0.5rem;
+    position: absolute;
+    text-align: left;
+}
+
+.signup-form #password a {
+    color: #000000;
+    padding-left: 1rem;
+}
+
+.signup-form #password a:hover {
+    text-decoration: underline;
+}
+
+.signup-form-bottom {
+    padding-left: 1.25rem;
+    font-weight: 500;
 }
 
 .signup-form-bottom p {
@@ -682,111 +772,11 @@ p {
     color: #009b15;
 }
 
-.signup-form h1 {
-    color: #000000;
-    font-size: 1.2rem;
-}
-
-#gender form {
-    padding-right: 3rem;
-}
-
-.signup-form h3 {
-    color: #000000;
-    font-size: 0.8rem;
-    font-weight: 500;
-    padding-bottom: 0.4rem;
-    padding-left: 1rem;
-    text-align: left;
-}
-
-.signup-form hr {
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-.signup-form input {
-    border-radius: 0.2rem;
-    border-color: #cccccc;
-    border-width: 0.05rem;
-    color: #000000;
-    font-size: 0.9rem;
-    height: 2.7rem;
-    padding-left: 1rem;
-    padding-top: 0.2rem;
-    width: 25rem;
-}
-
-.signup-form input:hover {
-    border-color: #000000;
-}
-
-.signup-form #birthdate input {
-    color: #7e7e7e;
-    margin-right: 14.4rem;
-    padding-right: 0.7rem;
-    text-align: left;
-    width: 10rem;
-}
-
-.signup-form #password {
-    padding-top: 0.5rem;
-    position: absolute;
-    text-align: left;
-}
-
-.signup-form #password a {
-    color: #000000;
-    padding-left: 1rem;
-}
-
-.signup-form #password a:hover {
-    text-decoration: underline;
-}
-
-#gender {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.radio-inline {
-    color: #000000;
-    font-size: 0.9rem;
-    padding-right: 1rem;
-}
-
-.radio-inline input {
-    padding-right: 0.6rem;
-}
-
-.signup-form #gender input {
-    color: #000000;
-    height: 1rem;
-    width: 2rem;
-}
-
-.signup-form form {
-    margin-right: 4rem;
-    margin-top: 0.2rem;
-}
-
-.signup-form #profile {
-    font-weight: 400;
-    padding-top: 0.5rem;
-}
-
-.signup-button {
-    background-color: #fcfcfc;
-    color: #2e2e2e;
-    margin-bottom: 2rem;
-}
-
 .signup-gmail {
     background-color: #fcfcfc;
 }
 
 .signup-icon {
-    float: left;
     padding-top: 0.4rem;
 }
 
@@ -797,10 +787,8 @@ p {
 .signup-pre button {
     border-radius: 2rem;
     border-width: 0.08rem;
-    font-weight: 500;
     height: 3rem;
     margin-top: 1rem;
-    position: relative;
     width: 25rem;
 }
 
@@ -810,8 +798,12 @@ p {
     color: #5c5b5b;
     font-weight: 500;
     height: 3rem;
-    position: relative;
     width: 25rem;
+}
+
+.signup-pre-2 button {
+    color: #5c5b5b;
+    font-weight: 500;
 }
 
 .signup-subtitle h1 {
@@ -855,11 +847,11 @@ p {
     width: 2rem;
 }
 
-.subscribe-button {
+.plan-subscribe-button {
     padding-top: 3.4375rem;
 }
 
-.subscribe-button-2 {
+.plan-subscribe-button-2 {
     padding-top: 1.5625rem;
 }
 
@@ -918,16 +910,6 @@ p {
     padding-left: 1.875rem;
     position: relative;
     width: 60%;
-}
-
-.terms {
-    text-decoration: underline;
-}
-
-.terms-2 {
-    color: #000000;
-    font-size: 0.7rem;
-    text-decoration: underline;
 }
 
 .title {
@@ -1041,10 +1023,6 @@ p {
     .navbar-links.active {
         display: flex;
     }
-
-    /* .search-icon {
-        display: none;
-    } */
 
     .seperator {
         display: none;
