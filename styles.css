@@ -264,11 +264,8 @@ html {
 
 .info-column {
     display: inline-block;
-    height: auto;
-    margin-left: 5rem;
-    padding-top: 2rem;
-    justify-content: space-between;
-    width: 13rem;
+    padding: 2rem 6rem 2rem 6rem;
+    width: 10rem;
     vertical-align: top;
 }
 
